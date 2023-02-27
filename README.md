@@ -26,3 +26,13 @@ From the `build` directory, you may then host the result on `localhost:8000` usi
 ```sh
 python3 -m http.server --directory ..
 ```
+
+### Usage
+Samples can only be embedded directly in SFZ as such:
+```
+<region> sample=kick_embedded.wav
+<sample> name=kick_embedded.wav
+    base64data=yA8QD1gPtAwgEFQQzBD4EZw....
+```
+
+Should build a helper script for doing this
