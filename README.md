@@ -8,6 +8,11 @@ Compared the main sfizz branch, the background loader is deactivated and all fil
 
 ### Building
 
+Fetch submodules
+```
+git submodule update --init --recursive
+```
+
 This assumes you have the [emsdk](https://github.com/emscripten-core/emsdk) installed and activated.
 ```sh
 mkdir build
