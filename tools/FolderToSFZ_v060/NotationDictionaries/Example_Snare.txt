@@ -1,0 +1,6 @@
+Notation=KeyNumber
+HitSN=60
+RollSN=61
+HitNS=62
+RollNS=63
+taps=64
